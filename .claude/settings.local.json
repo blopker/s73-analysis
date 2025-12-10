@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__binary_ninja_mcp__get_binary_status",
+      "mcp__binary_ninja_mcp__get_entry_points",
+      "mcp__binary_ninja_mcp__list_sections",
+      "mcp__binary_ninja_mcp__list_segments",
+      "mcp__binary_ninja_mcp__list_methods",
+      "mcp__binary_ninja_mcp__list_imports",
+      "mcp__binary_ninja_mcp__hexdump_address",
+      "mcp__binary_ninja_mcp__list_strings",
+      "mcp__binary_ninja_mcp__list_data_items",
+      "mcp__binary_ninja_mcp__decompile_function",
+      "mcp__binary_ninja_mcp__rename_function",
+      "mcp__binary_ninja_mcp__set_function_comment",
+      "mcp__binary_ninja_mcp__search_functions_by_name",
+      "mcp__binary_ninja_mcp__function_at",
+      "mcp__binary_ninja_mcp__list_strings_filter",
+      "mcp__binary_ninja_mcp__get_xrefs_to",
+      "mcp__binary_ninja_mcp__rename_data",
+      "mcp__binary_ninja_mcp__set_comment",
+      "mcp__binary_ninja_mcp__list_all_strings",
+      "mcp__binary_ninja_mcp__define_types",
+      "mcp__binary_ninja_mcp__set_function_prototype",
+      "mcp__binary_ninja_mcp__fetch_disassembly",
+      "mcp__binary_ninja_mcp__hexdump_data",
+      "mcp__binary_ninja_mcp__get_data_decl",
+      "mcp__binary_ninja_mcp__convert_number",
+      "mcp__binary_ninja_mcp__get_il"
+    ]
+  }
+}
