@@ -1,6 +1,6 @@
 # Super73 Decompile Project
 
-The goal of this project is to reproduce a bit-perfect firmware image from C code that reproduces the application.
+The goal of this project is to reproduce a bit-similar firmware image from C code that reproduces the application.
 
 ## Device Description
 
@@ -34,7 +34,7 @@ App image size: 0x24fac
 ## RAM
 RAM access is from 0x20000000 to 0x20010000
 
-## Workflow
+## Analysis Workflow
 Use the binary_ninja_mcp MPC server to interact with Binary Ninja, which has the application section of the firmware dump loaded in (flash-6-221122-0-application.bin). The goal is to go through and annotate the database with as much information as we can figure out. 
 
 - Find and name vector tables
@@ -45,4 +45,7 @@ Use the binary_ninja_mcp MPC server to interact with Binary Ninja, which has the
 - Add comments when needed to store extra information. Specifically, comment if a function is from the SDK, specify which file they are from.
 - Identify and rename global state that lives in RAM, including structs or types used
 
-Additionally, the SDK used to build this applications is in the "sdk" folder. Make sure to point out when functions are likely from the SDK files and examples.
+Additionally, the SDK used (and example projects) to build this application is in the "sdk" folder. Make sure to point out when functions are likely from the SDK files and/or example code.
+
+## Decompile Workflow
+-- TODO

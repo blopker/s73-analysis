@@ -26,7 +26,8 @@
       "mcp__binary_ninja_mcp__hexdump_data",
       "mcp__binary_ninja_mcp__get_data_decl",
       "mcp__binary_ninja_mcp__convert_number",
-      "mcp__binary_ninja_mcp__get_il"
+      "mcp__binary_ninja_mcp__get_il",
+      "Bash(ls:*)"
     ]
   }
 }
